@@ -1,0 +1,333 @@
+/*google----- font*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*------------*/
+/*google langguage*/
+
+/*font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+/*-------------*/
+body, h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Rajdhani', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: box-sizeing;
+}
+/*------navber-----------*/
+.navbar-brand{
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+}
+
+.nav-link{
+   font-weight: 700;
+  font-size: 17px;
+  color: white;
+}
+.navbar-nav{
+    margin-right: 61px;
+}
+.nav-item{
+    margin: 0px 12px;
+
+}
+.parasone{
+    /*position: fixed;*/
+  width: 100%;
+  z-index: 9999;
+  background: #412fb3; 
+}
+.sticky{
+  position: fixed;
+  width: 100%;
+  background: #412fb3; 
+}
+
+/*----------------cover section-----------*/
+.colr{
+  background-color: #22195b;
+ }
+
+.cover-color{
+  background: url(../img/banner-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.advence-soft{
+  color: white;
+  margin: 50px 10px 26px 35px;
+}
+.advence-soft h1{
+font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.advence-soft p{
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.bn{
+    padding: 12px 45px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  background: transparent;
+  background: white;
+  color: #22195b;
+  font-weight: 600;
+  margin-top: 35px;
+}
+.br{
+   padding: 12px 45px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  background: transparent;
+  background: white;
+  color: #22195b;
+  font-weight: 600;
+  
+}
+
+
+
+
+
+/*----------cover section end--------*/
+.content-title{
+  margin-top: 100px;
+ }
+
+.content-title h1{
+   font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+    font-size: 46px;
+}
+
+.content-title p{
+     font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 15px 236px;
+  margin-bottom: 110px;
+}
+.box-1{
+    box-shadow: 7px 5px 5px #c3cdd8;
+  padding: 22px;
+  padding-top: 55px;
+  margin-top: 2px;
+  margin-bottom: 40px
+}
+
+.box-1 .icon{
+  font-size: 35px;
+}
+
+.box-1:hover{
+  background:#c3cdd8;
+    box-shadow: 7px 7px 5px #c3cdd8;
+    transition: 0.5s ease-in-out;
+}
+/*---------------------------------*/
+
+
+.abou{
+    padding-top: 220px;
+       background color: #faf9ff;
+
+     
+
+
+
+
+}
+
+.landing-page h1{
+  margin-top: 46px;
+  margin-bottom: 16px;
+}
+ button{
+  padding: 12px 45px;
+  border: 2px solid #21146a;
+   border-radius: 40px; 
+ background: transparent;
+ color: #21146a;
+  
+
+  }  
+button:hover{
+   background:#21146a;
+   color: white;
+   transition: 0.5 ease-in-out; 
+}
+/*------fast cnontent------*/
+.offer{
+    padding-top: 100px;
+}
+.offer h1{
+     font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+    font-size: 46px;
+}
+.offer p{
+     font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 15px 236px;
+  margin-bottom: 110px;
+}
+
+.content-1{
+    box-shadow: 2px 5px 5px #c3cdd8;
+  padding: 6px 8px;
+  padding-top: 5px;
+  margin-top: 2px;
+    margin-left: 4px;
+
+}
+
+.content-1:hover{
+  background:#faf9ff;
+    box-shadow: 7px 7px 5px white;
+    transition: 0.5s ease-in-out;
+}
+.content-1 h4{
+    font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+.content-1 p{
+   font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.content-1 i{
+  font-size: 15px;
+}
+.jon{
+  padding-top: 48px;
+}
+
+
+/*prais panal start*/
+.carded{
+  position: relative;
+}
+
+.priseing-heder{
+  font-family: 'Roboto', sans-serif;
+
+}
+.priseing-heder h4{
+    font-size: 30px;
+  font-weight: 700;
+}
+.priseing-heder h1{
+  position: relative;
+  vertical-align: middle;
+}
+.priseing-heder span{
+  font-size: 24px;
+  vertical-align: middle;
+  position: absolute;
+}
+.itam-chack ul li a{
+font-size: 12px
+}
+.itam-chack li{
+  list-style: none;
+  /* top: 21px; */
+  font-size: 15px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+.brtn{
+  margin-top: 40px;
+}
+
+.clint-voice{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.clint-voice h3{
+        font-weight: 700;
+      font-size: 35px;
+      padding-bottom: 18px;
+}
+.clint-voice p{
+      padding-left: 200px;
+       padding-right: 200px;
+}
+
+.co-offer{
+  padding-left: 100px;
+  padding-right: 100px;
+    padding-bottom: 160px;
+}
+.footer{
+  background: #0e1424;
+  padding: 120px 0px 120px 0px;
+  
+}
+.footer-one{
+  color: #797979;
+  /* margin: 14px 0 0 12px; */
+  
+}
+.footer-one h4{
+    padding: 10px 1px;
+  font-size: 25px;
+  padding-right: 2px;
+  font-weight: 600;
+}
+
+.footer-one ul{
+  list-style: none;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.footer-one ul li{
+    padding-top: 10px;
+}
+
+.email{
+    padding: 10px;
+}
+
+.subscribe{
+    border-radius: initial;
+   padding: 12px 45px;
+  border: 2px solid #fff;
+  background: transparent;
+  background: white;
+  color: #22195b;
+  font-weight: 600;
+  
+
+}
+
+.clint-imge{
+  width: 100%;
+  padding: 60px 0;
+  
+}
+.post{
+ color: #797979;
+}
+.post{
+ color: #797979;
+}
+.icon{
+ color: #797979;
+}
+.icon ul i{
+  padding: 9px;
+}
